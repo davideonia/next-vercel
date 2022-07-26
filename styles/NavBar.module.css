@@ -1,0 +1,21 @@
+.nov, .nav *{
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+}
+.nav a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.nav a:hover{
+    color: #0070f3;
+    text-decoration: underline;
+}
